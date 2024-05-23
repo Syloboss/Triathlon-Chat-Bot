@@ -1,0 +1,934 @@
+{
+  "keywords": {
+    "stocks": [
+      "stocks"
+    ],
+    "stock": [
+      "stock"
+    ],
+    "stock market": [
+      "stock market"
+    ],
+    "crypto": [
+      "crypto"
+    ],
+    "trading": [
+      "trading"
+    ],
+    "advice": [
+      "advice"
+    ],
+    "distance and marathon": [
+      "distance",
+      "marathon"
+    ],
+    "distance and half marathon": [
+      "distance",
+      "half marathon"
+    ],
+    "distance and olympic triathlon": [
+      "distance",
+      "olympic triathlon"
+    ],
+    "distance and sprint triathlon": [
+      "distance",
+      "sprint triathlon"
+    ],
+    "distance and ironman": [
+      "distance",
+      "ironman"
+    ],
+    "distance and half ironman": [
+      "distance",
+      "half ironman"
+    ],
+    "distance and triathlon": [
+      "distance",
+      "triathlon"
+    ]
+  },
+  "responses": {
+    "stocks": "I am not a financial advisor. Please consult a professional for financial advice.",
+    "stock": "I am not a financial advisor. Please consult a professional for financial advice.",
+    "stock market": "I am not a financial advisor. Please consult a professional for financial advice.",
+    "dividend": "I am not a financial advisor. Please consult a professional for financial advice.",
+    "crypto": "I am not a financial advisor. Please consult a professional for financial advice.",
+    "bitcoin": "I am not a financial advisor. Please consult a professional for financial advice.",
+    "trading": "I am not a financial advisor. Please consult a professional for financial advice.",
+    "investing": "I am not a financial advisor. Please consult a professional for financial advice.",
+    "advice": "I might not be the best person to ask for advice. Please consult a professional.",
+    "distance and marathon": "A marathon is 42.195 kilometers long.",
+    "distance and half marathon": "A half marathon is 21.1 kilometers long.",
+    "distance and olympic triathlon": "An Olympic triathlon is 1.5km swim, 40km bike, 10km run.",
+    "distance and sprint triathlon": "A Sprint triathlon is 750m swim, 20km bike, 5km run.",
+    "distance and ironman": "An Ironman triathlon is 3.8km swim, 180km bike, 42.2km run.",
+    "distance and half ironman": "A half ironman is 1.9km swim, 90km bike, 21.1km run.",
+    "distance and triathlon": "The standard distances are Sprint (750m swim, 20km bike, 5km run), Olympic (1.5km swim, 40km bike, 10km run), Half-Ironman (1.9km swim, 90km bike, 21.1km run), and Ironman (3.8km swim, 180km bike, 42.2km run)."
+  },
+  "motivational_quotes": [
+    "Never limit your challenges, challenge your limits.",
+    "The only way to define your limits is by going beyond them.",
+    "Pain is temporary, but quitting lasts forever.",
+    "Success in triathlon comes when you balance endurance with patience.",
+    "Triathlon is more than a race; it's a test of your will.",
+    "Triathlon is not about finding your limits, it's about realizing you have none."
+  ],
+  "questions": [
+    {
+      "question": "How often should I train for each triathlon discipline?",
+      "answer": "As a professional triathlete, I recommend training for each discipline 2-3 times per week to allow for balanced improvement and adequate recovery. Be sure to alternate your focus to prevent burnout."
+    },
+    {
+      "question": "What is a good beginner triathlon?",
+      "answer": "Starting with a sprint triathlon is ideal. It consists of a 750m swim, a 20km bike ride, and a 5km run. This shorter distance is manageable and a great introduction to triathlon."
+    },
+    {
+      "question": "What gear do I need for my first triathlon?",
+      "answer": "You will need a swimsuit or wetsuit, goggles, a road or triathlon bike, a helmet, running shoes, and comfortable clothing that can be worn for all three segments. A race belt for your number is also useful."
+    },
+    {
+      "question": "How do I balance training with recovery?",
+      "answer": "Listen to your body and incorporate rest days or active recovery days into your schedule. Use techniques like stretching, yoga, or foam rolling to aid recovery."
+    },
+    {
+      "question": "What should I eat during training?",
+      "answer": "Focus on a balanced diet rich in carbohydrates, proteins, and fats. Hydration is crucial, as is timing your meals to support your training schedule."
+    },
+    {
+      "question": "Are there any specific rules for triathlon transitions?",
+      "answer": "Yes, transitions are regulated. For instance, you must have your helmet fastened before you mount your bike and you can only mount/dismount your bike at the designated line to avoid penalties."
+    },
+    {
+      "question": "What are drafting rules in triathlon?",
+      "answer": "Drafting, or staying closely behind another competitor to reduce wind resistance, is not allowed in most amateur races. You typically need to stay at least 12 meters behind the bike in front of you, except in designated draft-legal races."
+    },
+    {
+      "question": "What penalties can I face in a triathlon?",
+      "answer": "Penalties can include time additions for infractions like drafting, littering, or unsportsmanlike conduct. Familiarize yourself with the race's specific rules to avoid these."
+    },
+    {
+      "question": "How should I set up my transition area?",
+      "answer": "Keep your transition area simple and organized. Layout your gear in the order you will use it and practice your transitions to minimize time lost."
+    },
+    {
+      "question": "Hello",
+      "answer": "Hello to you aswell :)"
+    },
+    {
+      "question": "How's the weather today?",
+      "answer": "It's looking great today! How do you like it?"
+    },
+    {
+      "question": "What's your favorite color?",
+      "answer": "I think blue is quite calming. What about you?"
+    },
+    {
+      "question": "Do you have any hobbies?",
+      "answer": "I'm a chatbot, so my hobby is chatting with you! What are your hobbies?"
+    },
+    {
+      "question": "What did you have for breakfast?",
+      "answer": "I don't eat, but I'd love to hear about your breakfast."
+    },
+    {
+      "question": "Have you seen any good movies lately?",
+      "answer": "I don't watch movies, but I can help you find one to watch! What genre do you like?"
+    },
+    {
+      "question": "What's a good book you'd recommend?",
+      "answer": "I hear 'To Kill a Mockingbird' is a classic. What kind of books do you like?"
+    },
+    {
+      "question": "How was your day?",
+      "answer": "As a chatbot, my days are pretty consistent. Tell me about yours!"
+    },
+    {
+      "question": "What are your plans for the weekend?",
+      "answer": "I'll be right here ready to chat. What about you? Any fun plans?"
+    },
+    {
+      "question": "Do you like to travel?",
+      "answer": "I can travel anywhere digitally. What's your favorite travel destination?"
+    },
+    {
+      "question": "What music do you listen to?",
+      "answer": "I can play any music you like. What's your favorite song these days?"
+    },
+    {
+      "question": "What's your favorite food?",
+      "answer": "I don't eat, but I can suggest recipes! What type of cuisine do you like?"
+    },
+    {
+      "question": "Are you a cat or a dog person?",
+      "answer": "I think both cats and dogs are wonderful! Do you have any pets?"
+    },
+    {
+      "question": "What's the latest news?",
+      "answer": "I can help you catch up on the latest headlines. What topic interests you?"
+    },
+    {
+      "question": "Do you enjoy sports?",
+      "answer": "I can provide sports updates! What sports do you follow?"
+    },
+    {
+      "question": "What's your favorite season?",
+      "answer": "I don't experience weather but I hear spring is lovely with all the flowers. What's yours?"
+    },
+    {
+      "question": "Do you like coffee or tea?",
+      "answer": "I don't drink beverages, but I'd love to know your preference!"
+    },
+    {
+      "question": "What shows are you watching?",
+      "answer": "I don't watch TV, but I can help you find a great show to binge. What genres do you like?"
+    },
+    {
+      "question": "Do you like to cook?",
+      "answer": "I can help you find some recipes, but I don't cook myself. What's your favorite dish to make?"
+    },
+    {
+      "question": "What's new with you?",
+      "answer": "Just processing data! What's new in your life?"
+    },
+    {
+      "question": "Do you go to the movies often?",
+      "answer": "I'm always here, so I can't go out to the movies. What was the last movie you saw?"
+    },
+    {
+      "question": "What is the formula for water?",
+      "answer": "The chemical formula for water is H2O."
+    },
+    {
+      "question": "Who is known as the father of computers?",
+      "answer": "Charles Babbage is known as the father of computers."
+    },
+    {
+      "question": "What year did the Titanic sink?",
+      "answer": "The Titanic sank in 1912."
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "answer": "The Pacific Ocean is the largest ocean on Earth."
+    },
+    {
+      "question": "What planet is known as the Red Planet?",
+      "answer": "Mars is known as the Red Planet."
+    },
+    {
+      "question": "Who wrote 'Pride and Prejudice'?",
+      "answer": "Jane Austen wrote 'Pride and Prejudice'."
+    },
+    {
+      "question": "What is the hardest natural substance on Earth?",
+      "answer": "Diamond is the hardest natural substance on Earth."
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "answer": "The capital of Japan is Tokyo."
+    },
+    {
+      "question": "What gas do plants absorb from the atmosphere?",
+      "answer": "Plants absorb carbon dioxide from the atmosphere."
+    },
+    {
+      "question": "What is the currency of the United Kingdom?",
+      "answer": "The currency of the United Kingdom is the Pound Sterling."
+    },
+    {
+      "question": "Who discovered penicillin?",
+      "answer": "Alexander Fleming discovered penicillin."
+    },
+    {
+      "question": "What is the smallest planet in our solar system?",
+      "answer": "Mercury is the smallest planet in our solar system."
+    },
+    {
+      "question": "What year did World War II end?",
+      "answer": "World War II ended in 1945."
+    },
+    {
+      "question": "What is the main ingredient in guacamole?",
+      "answer": "The main ingredient in guacamole is avocado."
+    },
+    {
+      "question": "Who painted 'Starry Night'?",
+      "answer": "Vincent van Gogh painted 'Starry Night'."
+    },
+    {
+      "question": "What element has the chemical symbol 'O'?",
+      "answer": "Oxygen has the chemical symbol 'O'."
+    },
+    {
+      "question": "What is the tallest mountain in the world?",
+      "answer": "Mount Everest is the tallest mountain in the world."
+    },
+    {
+      "question": "Who invented the telephone?",
+      "answer": "Alexander Graham Bell invented the telephone."
+    },
+    {
+      "question": "What temperature does water freeze at?",
+      "answer": "Water freezes at 0 degrees Celsius (32 degrees Fahrenheit)."
+    },
+    {
+      "question": "What is the most populous country in the world?",
+      "answer": "China is the most populous country in the world."
+    },
+    {
+      "question": "What is Python?",
+      "answer": "Python is a high-level, interpreted programming language."
+    },
+    {
+      "question": "Who founded Microsoft?",
+      "answer": "Microsoft was founded by Bill Gates and Paul Allen."
+    },
+    {
+      "question": "What is the capital of France?",
+      "answer": "The capital of France is Paris."
+    },
+    {
+      "question": "What does HTML stand for?",
+      "answer": "HTML stands for HyperText Markup Language."
+    },
+    {
+      "question": "What is the speed of light?",
+      "answer": "The speed of light is approximately 299,792 kilometers per second."
+    },
+    {
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "answer": "Harper Lee wrote 'To Kill a Mockingbird'."
+    },
+    {
+      "question": "What is the boiling point of water?",
+      "answer": "The boiling point of water is 100 degrees Celsius."
+    },
+    {
+      "question": "What is AI?",
+      "answer": "AI stands for Artificial Intelligence, which simulates human intelligence in machines."
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "answer": "The largest planet in our solar system is Jupiter."
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "answer": "The Mona Lisa was painted by Leonardo da Vinci."
+    },
+    {
+      "question": "What do you do in your free time?",
+      "answer": "In my free time I learn interesting stuff."
+    },
+    {
+      "question": "hi",
+      "answer": "Hello"
+    },
+    {
+      "question": "do you like dogs",
+      "answer": "Yes, I love dogs!"
+    },
+    {
+      "question": "do you like cats",
+      "answer": "Yes, I love cats!"
+    },
+    {
+      "question": "how are you",
+      "answer": "I am a chatbot, so I do not have feelings! How are you?"
+    },
+    {
+      "question": "I am good",
+      "answer": "Great to hear!"
+    },
+    {
+      "question": "Can you help me with a problem?",
+      "answer": "Yes sure! What do you need?"
+    },
+    {
+      "question": "Can I ask a question?",
+      "answer": "Ofcourse, ask away!"
+    },
+    {
+      "question": "Do you watch sports?",
+      "answer": "Yes, I do enjoy watching sports!"
+    },
+    {
+      "question": "how are you doing?",
+      "answer": "I am a chatbot, so I do not have feelings. How are you doing?"
+    },
+    {
+      "question": "what is your name?",
+      "answer": "I am a chatbot, I do not have a name"
+    },
+    {
+      "question": "I am fine. Thanks for asking!",
+      "answer": "Good to hear!"
+    },
+    {
+      "question": "I am fine",
+      "answer": "Great to hear!"
+    },
+    {
+      "question": "can you help me?",
+      "answer": "Sure, what can I help you with?"
+    },
+    {
+      "question": "I am doing great!",
+      "answer": "That's amazing!"
+    },
+    {
+      "question": "Enter message",
+      "answer": "Please enter a message"
+    },
+    {
+      "question": "good thanks",
+      "answer": "Thats wonderful!"
+    },
+    {
+      "question": "what is your purpose?",
+      "answer": "My purpose is to be of assistance and answer your questions regarding triathlons."
+    },
+    {
+      "question": "What's the weather like today?",
+      "answer": "You can check the current weather on a weather website or app, like Weather.com"
+    },
+    {
+      "question": "Thanks!",
+      "answer": "No problem!"
+    },
+    {
+      "question": "Thank you",
+      "answer": "You are welcome"
+    },
+    {
+      "question": "Who created you?",
+      "answer": "I was created by Yannick and Ronald"
+    },
+    {
+      "question": "Who made you?",
+      "answer": "I was created by Yannick and Ronald"
+    },
+    {
+      "question": "Who is the president of the United States",
+      "answer": "As of my last update, the current President of the United States is Joe Biden."
+    },
+    {
+      "question": "Can you tell me a joke?",
+      "answer": "Sure! Why don't scientists trust atoms? Because they make up everything!"
+    },
+    {
+      "question": "What are some good excercises for beginners?",
+      "answer": "Some good beginner exercises include walking, jogging, yoga and bodyweight exercises like squats and push-ups."
+    },
+    {
+      "question": "How many calories are in an apple?",
+      "answer": "An average medium apple has about 95 calories."
+    },
+    {
+      "question": "Tell me a fun fact.",
+      "answer": "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still edible!"
+    },
+    {
+      "question": "Do you like sports?",
+      "answer": "Yes, I do like sports! What's your favorite sport?"
+    },
+    {
+      "question": "Who are you?",
+      "answer": "Hi, I am a chatbot! I am specialized on answering questions regarding triathlons."
+    },
+    {
+      "question": "what sports do you watch",
+      "answer": "Unfortunately, I do not have the time to watch sports"
+    },
+    {
+      "question": "do you listen to music?",
+      "answer": "Yes, I love listening to music. Especially while doing sports"
+    },
+    {
+      "question": "do you like watching sports",
+      "answer": "Unfortunately, I do not have the time to watch sports"
+    },
+    {
+      "question": "what do you do?",
+      "answer": "I am your guide on all questions regarding triathlons"
+    },
+    {
+      "question": "What can I expect from you?",
+      "answer": "You can expect guidance, advice and your questions answered on all topics regarding triathlons"
+    },
+    {
+      "question": "what stuff do you like to learn",
+      "answer": "My favourite topic to learn about is sports"
+    },
+    {
+      "question": "can you help with school work",
+      "answer": "Unfortunately, this momentarily exceeds my capacities"
+    },
+    {
+      "question": "Who are you?",
+      "answer": "I am a chatbot designed to answer questions about triathlons."
+    },
+    {
+      "question": "How old are you?",
+      "answer": "I was created in 2024"
+    },
+    {
+      "question": "When were you created?",
+      "answer": "I was created in 2024"
+    },
+    {
+      "question": "What kind of music should i listen to while running?",
+      "answer": "I would recommend listening to music with a high BPM to keep you motivated"
+    },
+    {
+      "question": "What music is best for running?",
+      "answer": "I would recommend listening to music with a high BPM to keep you motivated"
+    },
+    {
+      "question": "How long is a triathlon?",
+      "answer": "A triathlon typically ranges from a Sprint distance of 25.75 kilometers (16 miles) to a Long Distance (Ironman) of 226 kilometers (140.6 miles)."
+    },
+    {
+      "question": "What are the standard triathlon distances?",
+      "answer": "The standard distances are Sprint (750m swim, 20km bike, 5km run), Olympic (1.5km swim, 40km bike, 10km run), Half-Ironman (1.9km swim, 90km bike, 21.1km run), and Ironman (3.8km swim, 180km bike, 42.2km run)."
+    },
+    {
+      "question": "What should I wear for a triathlon?",
+      "answer": "A tri-suit is ideal as it is designed for all three disciplines. A wetsuit is also useful for cold water swims. Make sure you have a good pair of running shoes and a helmet for the cycling leg."
+    },
+    {
+      "question": "How do I transition between disciplines?",
+      "answer": "Practice your transitions in advance. Have a set place for your gear, and rehearse changing from swim to bike and bike to run. Speed and efficiency are key."
+    },
+    {
+      "question": "How should I train for a triathlon?",
+      "answer": "Follow a structured training plan that includes swim, bike, and run workouts. Include brick workouts (bike followed by run) to get used to the transition."
+    },
+    {
+      "question": "What equipment do I need for a triathlon?",
+      "answer": "You'll need a swimsuit, goggles, bike, helmet, running shoes, and a tri-suit. Optional items include a wetsuit, bike shoes, and race belt."
+    },
+    {
+      "question": "How do I prevent injuries while training?",
+      "answer": "Incorporate rest days, listen to your body, and include strength training and stretching in your routine. Proper technique and gradual increases in intensity are important."
+    },
+    {
+      "question": "What should I eat before a race?",
+      "answer": "Eat a balanced meal with carbohydrates, protein, and fats about 2-3 hours before the race. Avoid high-fiber foods to prevent stomach issues."
+    },
+    {
+      "question": "How do I stay hydrated during a triathlon?",
+      "answer": "Drink water and electrolyte drinks throughout the race. Practice your hydration strategy during training to find what works best for you."
+    },
+    {
+      "question": "What is drafting in a triathlon?",
+      "answer": "Drafting is the practice of riding closely behind another cyclist to reduce wind resistance. It's allowed in some triathlons (draft-legal) but not in others (non-draft)."
+    },
+    {
+      "question": "How do I improve my swimming technique?",
+      "answer": "Work on your form with drills, get feedback from a coach, and practice regularly. Focus on your breathing, body position, and stroke efficiency."
+    },
+    {
+      "question": "Can I walk during the run portion of a triathlon?",
+      "answer": "Yes, you can walk if needed. Many athletes walk through aid stations or take short walking breaks during longer races."
+    },
+    {
+      "question": "How do I choose the right bike for a triathlon?",
+      "answer": "Consider your budget, comfort, and goals. A road bike is a good start for beginners, and you can upgrade to a triathlon-specific bike as you gain experience."
+    },
+    {
+      "question": "What should I do if I get a flat tire during the bike leg?",
+      "answer": "Carry a spare tube, tire levers, and a pump or CO2 cartridge. Practice changing a flat tire so you're prepared if it happens during a race."
+    },
+    {
+      "question": "How do I pace myself during a triathlon?",
+      "answer": "Start at a comfortable pace and avoid going out too fast. Use a heart rate monitor or power meter to help maintain a steady effort throughout the race."
+    },
+    {
+      "question": "What are brick workouts?",
+      "answer": "Brick workouts involve doing two disciplines back-to-back, such as a bike ride followed by a run. They help your body get used to transitioning between activities."
+    },
+    {
+      "question": "How can I improve my running speed off the bike?",
+      "answer": "Practice brick workouts, work on your running form, and include speed work and intervals in your training plan."
+    },
+    {
+      "question": "What should I do the day before a race?",
+      "answer": "Rest, stay hydrated, and avoid strenuous activities. Prepare your gear, review the course, and have a light, familiar meal for dinner."
+    },
+    {
+      "question": "How do I deal with open water swimming anxiety?",
+      "answer": "Practice open water swims to build confidence, start at the back of the pack to avoid the crowd, and focus on your breathing and stroke."
+    },
+    {
+      "question": "What is the best way to recover after a triathlon?",
+      "answer": "Rehydrate, eat a balanced meal with protein and carbohydrates, and do gentle stretching. Allow your body time to rest and recover before resuming intense training."
+    },
+    {
+      "question": "What is the official language of World Triathlon events?",
+      "answer": "The official language of World Triathlon events is English."
+    },
+    {
+      "question": "Are athletes allowed to use communication devices during the competition?",
+      "answer": "No, athletes may not use communication devices of any type, including but not limited to cell phones, smart watches, and two-way radios, in any distractive manner during the competition."
+    },
+    {
+      "question": "What should an athlete do if they withdraw from the competition?",
+      "answer": "The athlete must inform a Technical Official after withdrawing from the competition. Failing to do this may result in a suspension."
+    },
+    {
+      "question": "Can athletes receive outside assistance during the race?",
+      "answer": "Athletes may receive limited assistance from event personnel or Technical Officials, but not from other athletes or spectators."
+    },
+    {
+      "question": "What is the penalty for an athlete found to be drafting in a standard distance event?",
+      "answer": "The penalty for drafting in a standard distance event is a 2-minute time penalty."
+    },
+    {
+      "question": "Are there any rules regarding the uniform an athlete must wear?",
+      "answer": "Yes, athletes must wear their uniform during the entire competition and award ceremony, and the uniform must conform to the World Triathlon Guidelines Regarding Authorised Identification."
+    },
+    {
+      "question": "What is the procedure if a rule violation is observed by a Technical Official?",
+      "answer": "The Technical Official will notify the athlete as soon as it is safe to do so, and the athlete must serve the penalty in the designated penalty box."
+    },
+    {
+      "question": "What are the rules for body marking in Age-Group competitions?",
+      "answer": "Body markings must be applied so they are visible on each arm, as close to the shoulder as possible, and one calf will be marked with the category and gender of the athlete."
+    },
+    {
+      "question": "What should athletes do if they miss the pre-race briefing?",
+      "answer": "Athletes who miss the pre-race briefing must inform the Technical Delegate about their absence. Otherwise, they will receive a time penalty or may be removed from the start list."
+    },
+    {
+      "question": "Are athletes allowed to wear long sleeves during the swim segment?",
+      "answer": "No, athletes are not allowed to wear long sleeves during the swim segment when wetsuits are forbidden, unless approved by the Technical Delegate in consultation with the Medical Delegate."
+    },
+    {
+      "question": "Are there any specific rules for triathlon transitions?",
+      "answer": "Yes, transitions are regulated. For instance, you must have your helmet fastened before you mount your bike and you can only mount/dismount your bike at the designated line to avoid penalties."
+    },
+    {
+      "question": "What are drafting rules in triathlon?",
+      "answer": "Drafting, or staying closely behind another competitor to reduce wind resistance, is not allowed in most amateur races. You typically need to stay at least 12 meters behind the bike in front of you, except in designated draft-legal races."
+    },
+    {
+      "question": "What penalties can I face in a triathlon?",
+      "answer": "Penalties can include time additions for infractions like drafting, littering, or unsportsmanlike conduct. Familiarize yourself with the race's specific rules to avoid these."
+    },
+    {
+      "question": "How should I set up my transition area?",
+      "answer": "Keep your transition area simple and organized. Layout your gear in the order you will use it and practice your transitions to minimize time lost."
+    },
+    {
+      "question": "What are the rules for the use of wetsuits in triathlons?",
+      "answer": "Wetsuits are allowed depending on the water temperature. For age-group athletes, wetsuits are mandatory if the water temperature is below 16\u00b0C (60.8\u00b0F) and prohibited if it is above 24.6\u00b0C (76.1\u00b0F). For elite athletes, wetsuits are mandatory below 16\u00b0C and prohibited above 22\u00b0C (71.6\u00b0F)."
+    },
+    {
+      "question": "Can I listen to music during the triathlon?",
+      "answer": "No, the use of communication devices, including music players, headphones, and smartwatches, in a distractive manner during the competition is prohibited. This rule is to ensure the safety of all athletes."
+    },
+    {
+      "question": "How do I know if I received a penalty during the race?",
+      "answer": "Penalties are communicated by Technical Officials. For drafting infringements, officials will show a blue card, sound a whistle, and call out the athlete's number. Penalties must also be posted on the penalty board before the athlete reaches the penalty box."
+    },
+    {
+      "question": "What is considered outside assistance in a triathlon?",
+      "answer": "Outside assistance is any help provided by anyone other than race officials or other athletes competing in the same event. This includes receiving nutrition, drinks, or equipment from spectators, coaches, or non-competing athletes, which is not allowed."
+    },
+    {
+      "question": "Are there any rules regarding triathlon uniforms?",
+      "answer": "Yes, triathlon uniforms must cover the torso in front and can have sleeves that do not cover the elbow. Zippers must not exceed 40cm and can be undone to the sternum, except for the last 200 meters of the run. Uniforms must be worn over both shoulders at all times."
+    },
+    {
+      "question": "What is the rule for littering during a triathlon?",
+      "answer": "Athletes must not dispose of rubbish or equipment except at clearly identified places, such as aid stations or littering zones. Littering outside these areas can result in penalties."
+    },
+    {
+      "question": "Can athletes help each other during the race?",
+      "answer": "Athletes can assist each other with incidental items like nutrition or pumps but cannot provide essential race equipment such as bicycles or helmets. Physical assistance in forward progress is also prohibited."
+    },
+    {
+      "question": "What should I do if I need to withdraw from the race?",
+      "answer": "If you need to withdraw, inform a Technical Official as soon as possible. Failing to notify an official may result in a suspension from future events."
+    },
+    {
+      "question": "Are there specific rules for para triathletes?",
+      "answer": "Yes, para triathletes have specific rules and classifications. For instance, they may have personal handlers and use different equipment based on their classification. Detailed rules can be found in the para triathlon section of the competition rules."
+    },
+    {
+      "question": "What is the penalty for drafting during the bike segment?",
+      "answer": "Drafting penalties vary by race distance: 5 minutes for long distance, 2 minutes for standard distance, and 1 minute for sprint and shorter distances. Penalties must be served in the designated penalty box."
+    },
+    {
+      "question": "What are the rules for the swim segment?",
+      "answer": "Swim rules include starting procedures, use of wetsuits based on water temperature, and maximum allowable time in the water. Elite athletes have different start procedures compared to age-group athletes."
+    },
+    {
+      "question": "How are transition areas regulated?",
+      "answer": "Transition areas must be kept tidy and organized. Helmets must be fastened before taking the bike and remain fastened until the bike is racked. Mounting and dismounting must be done at the designated lines."
+    },
+    {
+      "question": "What happens if a race is interrupted due to weather?",
+      "answer": "If a race is interrupted, the Technical Delegate may modify the course or restart the race. If more than 50% of the last segment is completed, athletes are ranked by their position at the last recorded data point."
+    },
+    {
+      "question": "Are there specific rules for team relay events?",
+      "answer": "Yes, team relay events have specific rules including team composition, relay exchange zones, and penalties for infractions. Each team must have a representative at the pre-race briefing."
+    },
+    {
+      "question": "What are the rules regarding race numbers?",
+      "answer": "Elite athletes do not wear bib numbers, while age-group athletes must wear them during the run segment. Body marking is used for all athletes, with specific locations for visibility."
+    },
+    {
+      "question": "Can I protest a penalty received during the race?",
+      "answer": "Yes, athletes have the right to protest penalties. The process involves submitting a protest form within a specified time after the penalty is issued, and a Competition Jury will review the protest."
+    },
+    {
+      "question": "What are the age requirements for different race categories?",
+      "answer": "Age categories include Youth (15-17), Junior (16-19), U23 (18-23), and Age-Group categories in 5-year increments starting from 20-24. The athlete's age is determined by their age on December 31st of the competition year."
+    },
+    {
+      "question": "What are the rules for using bicycles in triathlons?",
+      "answer": "Bicycles must meet safety standards, including proper maintenance and approved helmet use. Draft-legal races have additional equipment restrictions. Bikes are checked before the race."
+    },
+    {
+      "question": "How are results determined in a tie?",
+      "answer": "In the event of a tie, athletes are awarded the same rank, and the next athlete's position is adjusted accordingly. Timing systems and photo finishes help determine exact placements."
+    },
+    {
+      "question": "What should I do if I have a mechanical issue during the bike segment?",
+      "answer": "Athletes may receive mechanical assistance from race officials but cannot receive equipment from non-competing individuals. Accredited team support may assist before the first athlete reaches Transition 1."
+    },
+    {
+      "question": "What is the minimum age requirement for competing in a Long Distance triathlon?",
+      "answer": "The minimum age requirement for competing in a Long Distance triathlon is 18 years old."
+    },
+    {
+      "question": "Are athletes allowed to use their own bottles during the cycling segment?",
+      "answer": "Athletes can use their own bottles, but bottles/hydration systems or any other inserts located in the front of the athlete's race suit are not allowed."
+    },
+    {
+      "question": "What is the rule for the positioning of race equipment in the transition area?",
+      "answer": "Athletes must place their equipment already used in the corresponding numbered individual bin provided. Bike shoes may remain fixed on the pedals, but only one pair of running shoes may be on the floor at any time during the bike segment."
+    },
+    {
+      "question": "Can athletes receive medical assistance during the race?",
+      "answer": "Yes, athletes can receive medical assistance from event personnel or Technical Officials upon the approval of the Technical Delegate or Head Referee."
+    },
+    {
+      "question": "What happens if an athlete loses their swim cap between the swim exit and transition?",
+      "answer": "Athletes observed by a technical official discarding their swim cap between the swim exit and transition will receive a penalty."
+    },
+    {
+      "question": "Are there any specific rules for para triathletes in mixed relay events?",
+      "answer": "Yes, the distance ranges per leg for para triathletes in mixed relay events are swim 125-150m, bike 3.5-4km, and run 0.8-1km. The minimum age for eligibility is 15 years old."
+    },
+    {
+      "question": "What is the drafting penalty during the bike segment?",
+      "answer": "The drafting penalty during the bike segment is 3 minutes. The third drafting penalty results in disqualification."
+    },
+    {
+      "question": "How is an athlete's age determined for competition categories?",
+      "answer": "An athlete's age is determined by their age on December 31st in the year of competition."
+    },
+    {
+      "question": "Are there any restrictions on modifying equipment during the competition?",
+      "answer": "Athletes must not modify any equipment of the competition setup and ensure that their equipment complies with safety standards and is in proper condition."
+    },
+    {
+      "question": "Can athletes wear cameras during the race?",
+      "answer": "Athletes using an unauthorized camera, phone camera, or video camera will be disqualified."
+    },
+    {
+      "question": "What is the penalty for littering during the race?",
+      "answer": "Athletes must not dispose of rubbish or equipment except at clearly identified places such as aid stations or littering zones. Littering outside these areas can result in penalties."
+    },
+    {
+      "question": "Are there specific uniform requirements for triathletes?",
+      "answer": "Yes, triathlon uniforms must cover the torso in front, may have sleeves that do not cover the elbow, and zippers must not exceed 40 cm and can be undone to the sternum except for the last 200 meters of the run."
+    },
+    {
+      "question": "What should an athlete do if they receive a drafting penalty?",
+      "answer": "Drafting penalties during the bike section will be served on the athlete's spot in the transition area 2."
+    },
+    {
+      "question": "Are there any rules for assisting other athletes during the race?",
+      "answer": "Athletes can assist each other with incidental items like nutrition or pumps but cannot provide essential race equipment such as bicycles or helmets. Physical assistance in forward progress is also prohibited."
+    },
+    {
+      "question": "What should athletes do if they need to withdraw from the race?",
+      "answer": "If an athlete needs to withdraw, they must inform a Technical Official as soon as possible. Failing to notify an official may result in a suspension from future events."
+    },
+    {
+      "question": "Can para triathletes compete in the same category as non-para athletes?",
+      "answer": "Para triathletes compete under specific classifications and rules. They may have personal handlers and use different equipment based on their classification."
+    },
+    {
+      "question": "What are the rules for mounting and dismounting the bike?",
+      "answer": "Athletes must mount their bicycles after the mount line by having one complete foot contact with the ground after the mount line and must dismount their bicycles before the dismount line by having one complete foot contact with the ground before the dismount line."
+    },
+    {
+      "question": "What happens if an athlete fails to wear or loses their bib number during the run segment?",
+      "answer": "The athlete will have to stop at the next penalty box to rectify the situation."
+    },
+    {
+      "question": "What is the procedure for handling exceptional conditions during the race?",
+      "answer": "If a segment is shortened or modified due to exceptional conditions, the Technical Delegate and Technical Officials will take all reasonable actions to ensure the fairness of the event and the safety of the athletes."
+    },
+    {
+      "question": "What are the rules for Aquabike events?",
+      "answer": "Aquabike consists of swimming, Transition area 1, and cycling. Aquabike events will be organized only for Age-Group categories and will have the same swim and bike distances as the triathlon programmed in the same event."
+    },
+    {
+      "question": "What is the minimum age requirement for a Sprint triathlon?",
+      "answer": "The minimum age requirement for a Sprint triathlon is typically 16 years old."
+    },
+    {
+      "question": "Are there cut-off times for each segment of a triathlon?",
+      "answer": "Yes, triathlons usually have cut-off times for each segment to ensure safety and fair competition. These times vary by race and distance."
+    },
+    {
+      "question": "Can I use a mountain bike for a triathlon?",
+      "answer": "Yes, you can use a mountain bike for a triathlon, but a road or triathlon-specific bike is recommended for better performance."
+    },
+    {
+      "question": "What should I do if I get injured during the race?",
+      "answer": "If you get injured during the race, seek assistance from the nearest race official or medical personnel immediately."
+    },
+    {
+      "question": "Are there special rules for relay teams in a triathlon?",
+      "answer": "Yes, relay teams must exchange timing chips in designated areas and follow all general race rules. Each team member completes one segment of the race."
+    },
+    {
+      "question": "How do I find my bike in the transition area?",
+      "answer": "Use landmarks or colorful markers to locate your bike quickly. Practice transitioning to familiarize yourself with the layout."
+    },
+    {
+      "question": "Can I change my clothes during the transitions?",
+      "answer": "Yes, you can change clothes during transitions, but it must be done in designated changing areas if provided."
+    },
+    {
+      "question": "What is the penalty for not wearing a helmet during the bike segment?",
+      "answer": "The penalty for not wearing a helmet during the bike segment is disqualification."
+    },
+    {
+      "question": "How do I handle nutrition during a long-distance triathlon?",
+      "answer": "Plan your nutrition strategy in advance, practice during training, and use aid stations for refueling."
+    },
+    {
+      "question": "What are the rules for using sunscreen during a triathlon?",
+      "answer": "Sunscreen can be used but must be applied before the race or during transitions without assistance."
+    },
+    {
+      "question": "Are there specific rules for wearing sunglasses during the race?",
+      "answer": "Sunglasses are allowed and recommended for eye protection. Ensure they are secure and do not interfere with your helmet."
+    },
+    {
+      "question": "How do I train for hills in a triathlon?",
+      "answer": "Incorporate hill repeats and strength training into your routine. Practice cycling and running on hilly terrain."
+    },
+    {
+      "question": "Can I use aero bars on my bike?",
+      "answer": "Aero bars are allowed in non-draft races but are prohibited in draft-legal races."
+    },
+    {
+      "question": "What are the rules for using compression socks or sleeves?",
+      "answer": "Compression socks or sleeves are permitted as long as they do not provide any unfair advantage."
+    },
+    {
+      "question": "How do I ensure my timing chip is secure?",
+      "answer": "Secure your timing chip around your ankle with the provided strap and check it periodically during the race."
+    },
+    {
+      "question": "Can I use a snorkel during the swim segment?",
+      "answer": "No, snorkels are generally not allowed during the swim segment of a triathlon."
+    },
+    {
+      "question": "Are there specific hydration requirements during the race?",
+      "answer": "While there are no specific hydration requirements, staying properly hydrated is crucial. Use aid stations and carry personal hydration if needed."
+    },
+    {
+      "question": "What should I do if I experience cramps during the race?",
+      "answer": "Slow down, hydrate, and gently stretch the affected muscles. Seek medical assistance if cramps persist."
+    },
+    {
+      "question": "Can I use a tandem bike in a triathlon?",
+      "answer": "Tandem bikes are generally not allowed except for visually impaired athletes competing in para triathlon categories."
+    },
+    {
+      "question": "How do I avoid disqualification for unsportsmanlike conduct?",
+      "answer": "Maintain a respectful and fair attitude towards all competitors, officials, and volunteers. Follow all race rules and guidelines."
+    },
+    {
+      "question": "Are there specific rules for race numbers and body markings?",
+      "answer": "Yes, race numbers and body markings must be visible at all times. Follow race-specific guidelines for placement."
+    },
+    {
+      "question": "What is the procedure for handling lost equipment during the race?",
+      "answer": "Report lost equipment to the nearest official. Continue the race if possible or seek assistance if the loss affects your ability to compete safely."
+    },
+    {
+      "question": "Can I use a hydration pack during the bike and run segments?",
+      "answer": "Yes, hydration packs are allowed and can be useful for staying hydrated during longer races."
+    },
+    {
+      "question": "Are there rules for warming up before the race?",
+      "answer": "Warm-up rules vary by event. Typically, you can warm up in designated areas, but you must clear the swim start area before the race begins."
+    },
+    {
+      "question": "How are age group awards determined in a triathlon?",
+      "answer": "Age group awards are based on the athlete's age on December 31st of the competition year and their finishing time within their age group category."
+    },
+    {
+      "question": "What should I do if my goggles get knocked off during the swim?",
+      "answer": "If your goggles get knocked off, try to adjust them quickly while treading water. If needed, swim without them and navigate by following other swimmers or buoys."
+    },
+    {
+      "question": "Can I receive medical assistance if I feel unwell during the race?",
+      "answer": "Yes, seek medical assistance from race officials or designated medical personnel if you feel unwell during the race."
+    },
+    {
+      "question": "Are there rules for using anti-chafing products?",
+      "answer": "Anti-chafing products are allowed and recommended for comfort. Apply them before the race or during transitions as needed."
+    },
+    {
+      "question": "What are the rules for using a race belt for the run segment?",
+      "answer": "Race belts are allowed and help to easily display your race number. Ensure the number is visible at all times during the run segment."
+    },
+    {
+      "question": "How do I deal with blisters during the race?",
+      "answer": "If you develop blisters, cover them with bandages or blister pads. Consider using lubricants or wearing double-layer socks to prevent them."
+    },
+    {
+      "question": "what is a triathlon",
+      "answer": "A triathlon is a multi-discipline athletic event consisting of three continuous and sequential endurance races. The most common format includes swimming, cycling and running. There are several standard distances for triathlons. The standard distnaces are Sprint, Olympic, Half-Ironman and Ironman."
+    },
+    {
+      "question": "How long is a Sprint triathlon?",
+      "answer": "A Sprint triathlon Usually consists of a 750-meter swim, a 20-kilometer bike ride, and a 5-kilometer run. "
+    },
+    {
+      "question": "How long is a Olympic triathlon?",
+      "answer": " A Olympic triathlon consists of a 1.5-kilometer swim, a 40-kilometer bike ride, and a 10-kilometer run."
+    },
+    {
+      "question": "How long is a Half Ironman?",
+      "answer": "A Half Ironman, also known as a 70.3 triathlon, consists of a 1.9-kilometer swim, a 90-kilometer bike ride, and a 21.1-kilometer run."
+    },
+    {
+      "question": "How long is a Ironman?",
+      "answer": "A Ironman is the longest standard distance and consists of a 3.8-kilometer swim, a 180-kilometer bike ride, and a 42.2-kilometer run."
+    },
+    {
+      "question": "are you good",
+      "answer": "Yes, I am very well"
+    },
+    {
+      "question": "are you good at sports",
+      "answer": "I am a chatbot, I do not do sports"
+    },
+    {
+      "question": "thanks",
+      "answer": "No, problem"
+    }
+  ]
+}
